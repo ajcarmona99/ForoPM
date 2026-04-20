@@ -26,7 +26,7 @@ fun rememberPermissionState(permission: String): Pair<Boolean, () -> Unit>{
 
     val launcher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.RequestPermission()
-    ) { isGranted -> granted = isGranted}
+    ) { isGranted -> granted = isGranted }
 
     val request = {launcher.launch(permission)}
     return Pair(granted, request)
