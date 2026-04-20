@@ -1,9 +1,12 @@
 package com.example.mp_sfp.interfaces
 
-import androidx.compose.runtime.Composable
-import androidx.navigation.NavHostController
-import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.NavHost
+
+import androidx.navigation.NavHostController
+
+import androidx.compose.runtime.Composable
+
 
 object Routes{
     const val HOME = "home"
